@@ -10,7 +10,7 @@ import Property from '../components/Property'
 import noresult from '../assets/noresult.svg'
 import { baseUrl, fetchApi } from "../utils/fetchApi"
 
-function search({ properties }) {
+function Search({ properties }) {
     const [searchFilters, setSearchFilters] = useState(false)
     const router = useRouter()
 
@@ -56,7 +56,7 @@ function search({ properties }) {
   )
 }
 
-export default search
+export default Search
 
 export async function getServerSideProps({ query }) {
     const purpose = query.purpose || 'for-rent';

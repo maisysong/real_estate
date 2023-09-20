@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Box, Icon, Flex } from "@chakra-ui/react"
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu"
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa"
-import "react-horizontal-scrolling-menu/dist/styles.css"
+// import "react-horizontal-scrolling-menu/dist/styles.css"
 
 const LeftArrow = () => {
     const { scrollPrev } = useContext(VisibilityContext)
